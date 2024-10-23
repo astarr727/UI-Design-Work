@@ -1,0 +1,160 @@
+* {
+    border: 1px solid red;
+    /* Debugging border for all elements */
+}
+
+html,
+body {
+    height: 100%;
+    /* Full height */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    /* Enable Flexbox */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically */
+    background: linear-gradient(to right, #F5F5DC, #FFDBBB);
+    /* Gradient background */
+}
+
+p {
+    color: rgb(134, 91, 33);
+    /* Paragraph text color */
+    text-align: center;
+    /* Center text */
+    margin-bottom: 20px;
+    /* Space below text */
+}
+
+img {
+    width: 100%;
+    /* Full width for images */
+    max-width: 600px;
+    /* Limit maximum width */
+    margin-bottom: 20px;
+    /* Space between images */
+}
+
+.centered-text {
+    text-align: center;
+    /* Center text horizontally */
+    margin: 0 auto;
+    /* Center the container */
+    max-width: 600px;
+    /* Limit the width of the paragraph */
+    padding: 20px;
+    /* Optional: add some padding */
+}
+
+.header,
+.content,
+.footer {
+    width: 100%;
+    /* Full width for sections */
+    text-align: center;
+    /* Center text */
+    margin-bottom: 20px;
+    /* Space between sections */
+}
+
+.image {
+    max-width: 100%;
+    /* Responsive images */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+a {
+    color: #006b80;
+    /* Default link color */
+}
+
+a:hover {
+    color: darkorange;
+    /* Color when the link is hovered */
+}
+
+h1 {
+    color: #800000;
+    /* Header color */
+}
+
+.title {
+    color: teal;
+    /* Title color */
+}
+
+.uppercase {
+    text-transform: uppercase;
+    /* Uppercase text */
+}
+
+#article-title {
+    font-family: cursive;
+    /* Cursive font for article title */
+}
+
+h2.destination {
+    font-family: Tahoma;
+    /* Tahoma font for destination headings */
+}
+
+.description h5 {
+    color: blueviolet;
+    /* Color for description h5 */
+}
+
+li h4 {
+    color: gold;
+    /* Color for h4 inside list items */
+}
+
+h4 {
+    color: dodgerblue;
+    /* Color for h4 */
+}
+
+li,
+h5 {
+    font-family: monospace;
+    /* Monospace font for list items and h5 */
+}
+
+#publish-time {
+    color: lightgray;
+    /* Color for publish time */
+}
+
+h5 {
+    color: yellow;
+    /* Color for h5 */
+}
+
+.author-class {
+    color: pink;
+    /* Color for author class */
+}
+
+#author-id {
+    color: cornflowerblue;
+    /* Color for author ID */
+}
+
+a[href*='florence'] {
+    color: lightgreen;
+    /* Color for links containing 'florence' */
+}
+
+a[href*='beijing'] {
+    color: lightblue;
+    /* Color for links containing 'beijing' */
+}
+
+a[href*='seoul'] {
+    color: lightpink;
+    /* Color for links containing 'seoul' */
+}
